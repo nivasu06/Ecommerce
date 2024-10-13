@@ -1,0 +1,29 @@
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filtered-products-section,
+.all-products-section {
+    margin-bottom: 20px;
+}
+
+.filtered-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.remaining-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Add styles for product card if necessary */
+.product-card {
+    flex: 1 1 calc(25% - 20px); /* Adjust the width of each card */
+    box-sizing: border-box;
+}

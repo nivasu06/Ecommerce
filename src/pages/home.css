@@ -1,0 +1,63 @@
+.home {
+    display: flex;
+    flex-direction: column; /* Stack the search bar and content vertically */
+    padding: 1rem;
+    padding-top: 4rem; /* Add padding to avoid overlap with fixed navbar */
+    align-items: center; /* Center the items horizontally */
+    margin: 0; /* Ensure there's no margin around the main container */
+}
+
+.search-bar-container {
+    width: 100%; /* Full width container */
+    display: flex;
+    justify-content: center; /* Center the search bar horizontally */
+    margin-bottom: 2rem; /* Space below the search bar */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Limit the maximum width of the search bar */
+}
+
+.search-input {
+    flex: 1; /* Allow input to take up available space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.home-content {
+    display: flex;
+    gap: 1.5rem; /* Space between filter and other content */
+    align-items: flex-start; /* Align items to the top */
+    width: 100%;
+    max-width: 1200px; /* Limit the maximum width of the content area */
+}
+
+.filter {
+    flex: 1; /* Allows filter to take up available space */
+    max-width: 300px; /* Set a maximum width for the filter */
+    margin-right: 1rem; /* Add space between filter and other content */
+}
+
+.other-content {
+    flex: 2; /* Allows other content to take up more space */
+}

@@ -1,0 +1,69 @@
+/* Container for the filter section */
+.filter-container {
+    background-color: #e0e0e0; /* Light grey background color */
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto; /* Centered horizontally */
+    max-width: 400px; /* Fixed width for better text alignment */
+    padding: 20px; /* Increased padding for better spacing */
+    width: 100%;
+}
+
+/* Section for the price range filter */
+.filter-price-section {
+    align-items: stretch; /* Ensure the range slider fits well */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.filter-price-section input[type="range"] {
+    cursor: pointer;
+    margin: 10px 0; /* Increased margin for better spacing */
+    width: calc(100% - 20px); /* Adjust width to fit inside container with padding */
+}
+
+.filter-price-section label {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+    padding-right: 20px; /* Add more space on the right */
+}
+
+.filter-price-section span {
+    color: #666;
+    font-size: 0.9rem;
+    margin-left: 10px; /* Add space between the range slider and the text */
+}
+
+/* Section for the category checkboxes */
+.filter-categories-section {
+    margin-top: 20px; /* Increased margin for better spacing */
+}
+
+.filter-categories-section h3 {
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+}
+
+.filter-categories-section input[type="checkbox"] {
+    cursor: pointer;
+    margin-right: 8px; /* Space between the checkbox and the text */
+}
+
+.filter-categories-section label {
+    align-items: center; /* Align items vertically center */
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 10px; /* Increased margin for better spacing */
+    width: 100%;
+}
+
+.filter-categories-section span {
+    color: #666;
+    flex-grow: 1; /* Allow span to take available space */
+    font-size: 0.9rem;
+}

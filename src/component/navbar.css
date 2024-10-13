@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem; /* Remove top and bottom padding to cover margins */
+  background-color: #333;
+  color: white;
+  position: fixed; /* Fix the navbar to the top */
+  width: 100%; /* Full width */
+  top: 0; /* Align with the top */
+  left: 0; /* Align with the left */
+  z-index: 1000; /* Ensure it appears above other content */
+  box-sizing: border-box; /* Include padding in the total width and height */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.signin-icon, .logout-icon {
+  width: 24px; /* Adjust the size as needed */
+  height: 24px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem; /* Adjust padding to cover margins */
+  background-color: #333;
+  color: white;
+  position: fixed; /* Fix the navbar to the top */
+  width: 100%; /* Full width */
+  top: 0; /* Align with the top */
+  left: 0; /* Align with the left */
+  z-index: 1000; /* Ensure it appears above other content */
+  box-sizing: border-box; /* Include padding in the total width and height */
+  height: 60px; /* Set height if needed */
+}

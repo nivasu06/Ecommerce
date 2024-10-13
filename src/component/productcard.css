@@ -1,0 +1,42 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.product-image {
+    width: 100%;
+    height: auto; /* Maintain the aspect ratio of the image */
+    max-height: 200px; /* Set a maximum height to avoid overly tall images */
+    object-fit: contain; /* Ensure the entire image is visible without cropping */
+    padding: 0.5rem; /* Add padding to give the image some space within the card */
+    background-color: #f9f9f9; /* Optional: Add a background color to make the image stand out */
+    border-bottom: 1px solid #ddd; /* Optional: Add a border to separate the image from the details */
+}
+
+
+.product-details {
+    padding: 1rem;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-price {
+    color: #007bff;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: #666;
+}

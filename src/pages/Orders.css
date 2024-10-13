@@ -1,0 +1,64 @@
+.order-container {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.order-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.order-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.order-details p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.order-details h4 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.order-items-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-items-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-items-list li:last-child {
+    border-bottom: none;
+}
+
+.item-title {
+    font-size: 1rem;
+}
+
+.item-quantity {
+    font-size: 0.9rem;
+    color: #007bff;
+}
+
+.billing-summary {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
