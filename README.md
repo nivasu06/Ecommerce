@@ -29,3 +29,8 @@ This is a React-based e-commerce website where users can browse available items,
 - Browse and add items to the cart.
 - Place orders with cash on delivery option.
 
+![image](https://github.com/user-attachments/assets/87b4b075-f264-4f60-af0b-a9f175c418c1)
+![image](https://github.com/user-attachments/assets/118dfb77-2268-499c-806d-bda47fc8f88f)
+![image](https://github.com/user-attachments/assets/5177c39a-0e11-4867-bbf7-f68e04915202)
+
+
